@@ -23,6 +23,8 @@ pip install python-dotenv
 flask --debug run
 ```
 
+On peut également créer un fichier vide `tailwind.config.js` à la racine du projet pour permettre à vscode d'autocompléter.
+
 ## Comprendre la structure du projet
 
 Les fichiers `run.py` et `wsgi.py` sont des fichiers de configuration pour le serveur. Ils sont à la racine du projet.
@@ -36,6 +38,8 @@ Le dossier `paconsse` est le dossier principal du projet. Il contient tout le co
 Chaque dossier dans `paconsse` est un **blueprint**. Chaque **blueprint** correspond à une "branche" de fonctionnalités du site. Par exemple, le **blueprint** "default" contient toutes les pages d'accueils et les pages "statiques". Quand on rajoutera le jeu, on créera un **blueprint** dédié qui contiendra tout le code du jeu.
 
 Un module contient un fichier `__init__.py` contenant le code d'initialisation du **blueprint**. Il charge les différentes pages que contient le **blueprint**. Chaque fichier supplémentaire correspond à une page / fonctionnalité différente.
+
+Un module contient également un dossier `templates` qui contient toutes les templates HTML du **blueprint**. Ces templates contiennent également des `components` personalisables et réutilisables.
 
 ## utils
 
