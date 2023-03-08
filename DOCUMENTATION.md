@@ -15,6 +15,7 @@ pip install --upgrade pip
 pip install Flask
 pip install rich
 pip install python-dotenv
+pip install flask-wtf
 ```
 
 ## Lancer le serveur

@@ -21,5 +21,7 @@ def create_app(config):
 
     from paconsse.default import bp as default_bp
     app.register_blueprint(default_bp)
+    from paconsse.blog import bp as blog_bp
+    app.register_blueprint(blog_bp, url_prefix="/blog")
 
     return app
