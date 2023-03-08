@@ -1,3 +1,27 @@
+# Gitignore
+
+# This gitignore file contains two categories of rules:
+# 1. custom rules for this project
+# 2. default github "Python Gitignore" rules
+
+############################
+#     Custom Gitignore     #
+############################
+
+# virtual environment
+envi
+
+
+
+############################
+# Default Python Gitignore #
+############################
+
+
+
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -8,6 +8,8 @@ Cette structure de mono-repo est inspirée de [la stratégie de Google](https://
 Ce dépôt étant susceptible de contenir plusieurs projets, j'ai décidé de mettre en place un compte unique pour tous les services utilisés (Commentaires sur le blog, progression dans un jeu, etc.).
 Ainsi, les utilisateurs n'auront qu'un seul compte à gérer, et pourront utiliser les services de mon site sans avoir à créer un nouveau compte.
 
+Même si le site et les documents relatifs (documentation, etc.) sont rédigés en français (afin de faciliter la compréhension de mon travail et d'être le plus précis possible), le code source est rédigé en anglais (par habitude et convention). Une traduction française sera éventuellement disponible dans le futur.
+
 ## Environnement de développement
 
 -   IDE : [Visual Studio Code](https://code.visualstudio.com/)
