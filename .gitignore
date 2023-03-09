@@ -11,8 +11,8 @@
 # virtual environment
 envi
 
-# tailwind css config file (not needed in production, allows the IDE to autocomplete)
-tailwind.config.js
+# tailwind executable
+tailwindcss
 
 
 

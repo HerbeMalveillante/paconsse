@@ -18,6 +18,20 @@ pip install python-dotenv
 pip install flask-wtf
 ```
 
+## installer tailwindcss
+
+```bash
+curl -sLO https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-macos-arm64
+chmod +x tailwindcss-macos-arm64
+mv tailwindcss-macos-arm64 tailwindcss
+```
+
+## lancer le serveur tailwind
+
+```bash
+./tailwindcss -i paconsse/static/input.css -o paconsse/static/output.css --watch
+```
+
 ## Lancer le serveur
 
 ```bash
